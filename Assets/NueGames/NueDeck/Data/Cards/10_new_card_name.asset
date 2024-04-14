@@ -12,14 +12,45 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6903f06e96c43789549f142f8956d64, type: 3}
   m_Name: 10_new_card_name
   m_EditorClassIdentifier: 
-  id: 10_new_card_name
-  cardName: 10_new_card_name
-  manaCost: 0
-  cardSprite: {fileID: 0}
+  id: legendary_card
+  cardName: Legendary
+  manaCost: 3
+  cardSprite: {fileID: 21300000, guid: 1113310f8619a8747b68ee8b7fc7d63d, type: 3}
   rarity: 0
   usableWithoutTarget: 0
   exhaustAfterPlay: 0
-  cardActionDataList: []
-  cardDescriptionDataList: []
+  cardActionDataList:
+  - cardActionType: 0
+    actionTargetType: 0
+    actionValue: 20
+    actionDelay: 0
+  cardDescriptionDataList:
+  - descriptionText: Legendary
+    enableOverrideColor: 0
+    overrideColor: {r: 0, g: 0, b: 0, a: 1}
+    useModifier: 0
+    modifiedActionValueIndex: 0
+    modiferStats: 0
+    usePrefixOnModifiedValue: 0
+    modifiedValuePrefix: '*'
+    overrideColorOnValueScaled: 0
+  - descriptionText: 
+    enableOverrideColor: 1
+    overrideColor: {r: 0.9716981, g: 0.27959237, b: 0.27959237, a: 1}
+    useModifier: 0
+    modifiedActionValueIndex: 0
+    modiferStats: 0
+    usePrefixOnModifiedValue: 0
+    modifiedValuePrefix: '*'
+    overrideColorOnValueScaled: 0
+  - descriptionText: Attack
+    enableOverrideColor: 0
+    overrideColor: {r: 0, g: 0, b: 0, a: 1}
+    useModifier: 0
+    modifiedActionValueIndex: 0
+    modiferStats: 0
+    usePrefixOnModifiedValue: 0
+    modifiedValuePrefix: '*'
+    overrideColorOnValueScaled: 0
   specialKeywordsList: 
   audioType: 0
