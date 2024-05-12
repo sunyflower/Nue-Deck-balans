@@ -15,9 +15,10 @@ MonoBehaviour:
   id: 1_attack_basic
   cardName: Basic Attack
   manaCost: 1
-  cardSprite: {fileID: 21300000, guid: 8510ca3a47f6c23479e9992c04455698, type: 3}
+  cardSprite: {fileID: 21300000, guid: 5dba1a2d2e3f16749a7e919b16798a85, type: 3}
   rarity: 0
   usableWithoutTarget: 0
+  exhaustAfterPlay: 0
   cardActionDataList:
   - cardActionType: 0
     actionTargetType: 0
