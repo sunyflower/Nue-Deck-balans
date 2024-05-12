@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6903f06e96c43789549f142f8956d64, type: 3}
   m_Name: 8-Stun
   m_EditorClassIdentifier: 
-  id: 8_Stun
+  id: 8_stun
   cardName: Stun
   manaCost: 1
   cardSprite: {fileID: 3581737191522520629, guid: a707003c96586cc41b22ae32a9cdb636, type: 3}
@@ -25,7 +25,7 @@ MonoBehaviour:
     actionValue: 1
     actionDelay: 0
   cardDescriptionDataList:
-  - descriptionText: Stun
+  - descriptionText: 'Stun '
     enableOverrideColor: 0
     overrideColor: {r: 0, g: 0, b: 0, a: 1}
     useModifier: 0

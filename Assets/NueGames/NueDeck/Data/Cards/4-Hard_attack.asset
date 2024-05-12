@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6903f06e96c43789549f142f8956d64, type: 3}
   m_Name: 4-Hard_attack
   m_EditorClassIdentifier: 
-  id: 5_hard_attack
+  id: 4_hard_attack
   cardName: Hard Attack
   manaCost: 2
   cardSprite: {fileID: 21300000, guid: 04684b85c9246b945a48b41d9ec2f4be, type: 3}
@@ -22,7 +22,7 @@ MonoBehaviour:
   cardActionDataList:
   - cardActionType: 0
     actionTargetType: 0
-    actionValue: 15
+    actionValue: 14
     actionDelay: 0
   cardDescriptionDataList:
   - descriptionText: 'Deal '
@@ -43,7 +43,7 @@ MonoBehaviour:
     usePrefixOnModifiedValue: 1
     modifiedValuePrefix: '*'
     overrideColorOnValueScaled: 1
-  - descriptionText: huge damage
+  - descriptionText: ' hard damage'
     enableOverrideColor: 0
     overrideColor: {r: 0, g: 0, b: 0, a: 1}
     useModifier: 0

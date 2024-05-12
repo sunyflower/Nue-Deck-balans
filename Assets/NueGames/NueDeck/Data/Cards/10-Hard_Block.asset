@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6903f06e96c43789549f142f8956d64, type: 3}
   m_Name: 10-Hard_Block
   m_EditorClassIdentifier: 
-  id: 10_Hard_Block
+  id: 10_hard_block
   cardName: Hard Block
   manaCost: 2
   cardSprite: {fileID: 21300000, guid: 084e8321395590d45a7fd5b5d04b9f16, type: 3}
@@ -22,10 +22,10 @@ MonoBehaviour:
   cardActionDataList:
   - cardActionType: 2
     actionTargetType: 1
-    actionValue: 12
+    actionValue: 11
     actionDelay: 0
   cardDescriptionDataList:
-  - descriptionText: Gain
+  - descriptionText: 'Gain '
     enableOverrideColor: 0
     overrideColor: {r: 0, g: 0, b: 0, a: 1}
     useModifier: 0
@@ -43,7 +43,7 @@ MonoBehaviour:
     usePrefixOnModifiedValue: 1
     modifiedValuePrefix: '*'
     overrideColorOnValueScaled: 0
-  - descriptionText: ' hudge block'
+  - descriptionText: ' hard block'
     enableOverrideColor: 0
     overrideColor: {r: 0, g: 0, b: 0, a: 1}
     useModifier: 0

@@ -12,17 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6903f06e96c43789549f142f8956d64, type: 3}
   m_Name: 9-Wide_Attack
   m_EditorClassIdentifier: 
-  id: 9_Wide_Attack
+  id: 9_wide_attack
   cardName: Wide Attack
   manaCost: 2
   cardSprite: {fileID: -813905644948478668, guid: a707003c96586cc41b22ae32a9cdb636, type: 3}
   rarity: 0
-  usableWithoutTarget: 0
+  usableWithoutTarget: 1
   exhaustAfterPlay: 0
   cardActionDataList:
   - cardActionType: 0
     actionTargetType: 2
-    actionValue: 5
+    actionValue: 6
     actionDelay: 0
   cardDescriptionDataList:
   - descriptionText: 'Deal '
