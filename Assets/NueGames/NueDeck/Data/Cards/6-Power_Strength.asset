@@ -10,22 +10,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6903f06e96c43789549f142f8956d64, type: 3}
-  m_Name: 6-Power_MaxHealth
+  m_Name: 6-Power_Strength
   m_EditorClassIdentifier: 
-  id: 7_power_maxhealth
-  cardName: Increase max health
+  id: 6_power_strength
+  cardName: Increase strength
   manaCost: 2
-  cardSprite: {fileID: 21300000, guid: f699460fbf1b2404bb6c2e727663fc86, type: 3}
+  cardSprite: {fileID: 21300000, guid: a0c75614ede963a46af4bc352b3faabd, type: 3}
   rarity: 0
   usableWithoutTarget: 1
   exhaustAfterPlay: 0
   cardActionDataList:
-  - cardActionType: 4
+  - cardActionType: 3
     actionTargetType: 1
-    actionValue: 5
+    actionValue: 4
     actionDelay: 0
   cardDescriptionDataList:
-  - descriptionText: 'Increase your max health by '
+  - descriptionText: 'Increase your strength by '
     enableOverrideColor: 0
     overrideColor: {r: 0, g: 0, b: 0, a: 1}
     useModifier: 0
@@ -36,12 +36,12 @@ MonoBehaviour:
     overrideColorOnValueScaled: 0
   - descriptionText: 
     enableOverrideColor: 0
-    overrideColor: {r: 0, g: 0, b: 0, a: 1}
+    overrideColor: {r: 0.9245283, g: 0.5322869, b: 0.06541473, a: 1}
     useModifier: 1
     modifiedActionValueIndex: 0
     modiferStats: 0
     usePrefixOnModifiedValue: 0
     modifiedValuePrefix: '*'
     overrideColorOnValueScaled: 0
-  specialKeywordsList: 
+  specialKeywordsList: 01000000
   audioType: 9

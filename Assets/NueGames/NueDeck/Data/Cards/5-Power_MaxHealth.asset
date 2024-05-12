@@ -10,22 +10,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6903f06e96c43789549f142f8956d64, type: 3}
-  m_Name: 8-Skill_EarnMana
+  m_Name: 5-Power_MaxHealth
   m_EditorClassIdentifier: 
-  id: 9_skill_earnMana
-  cardName: Earn mana
-  manaCost: 0
-  cardSprite: {fileID: 21300000, guid: c0629e7c358247d4291114d4e9521ddd, type: 3}
+  id: 5_power_maxhealth
+  cardName: Increase max health
+  manaCost: 2
+  cardSprite: {fileID: 21300000, guid: f699460fbf1b2404bb6c2e727663fc86, type: 3}
   rarity: 0
   usableWithoutTarget: 1
   exhaustAfterPlay: 0
   cardActionDataList:
-  - cardActionType: 6
+  - cardActionType: 4
     actionTargetType: 1
-    actionValue: 2
+    actionValue: 5
     actionDelay: 0
   cardDescriptionDataList:
-  - descriptionText: 'Earn '
+  - descriptionText: 'Increase your max health by '
     enableOverrideColor: 0
     overrideColor: {r: 0, g: 0, b: 0, a: 1}
     useModifier: 0
@@ -38,15 +38,6 @@ MonoBehaviour:
     enableOverrideColor: 0
     overrideColor: {r: 0, g: 0, b: 0, a: 1}
     useModifier: 1
-    modifiedActionValueIndex: 0
-    modiferStats: 0
-    usePrefixOnModifiedValue: 0
-    modifiedValuePrefix: '*'
-    overrideColorOnValueScaled: 0
-  - descriptionText: ' mana'
-    enableOverrideColor: 0
-    overrideColor: {r: 0, g: 0, b: 0, a: 1}
-    useModifier: 0
     modifiedActionValueIndex: 0
     modiferStats: 0
     usePrefixOnModifiedValue: 0
