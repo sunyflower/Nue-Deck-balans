@@ -10,22 +10,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6903f06e96c43789549f142f8956d64, type: 3}
-  m_Name: 1-Attack_Basic
+  m_Name: 10-Hard_Block
   m_EditorClassIdentifier: 
-  id: 1_attack_basic
-  cardName: Basic Attack
-  manaCost: 1
-  cardSprite: {fileID: 21300000, guid: 8510ca3a47f6c23479e9992c04455698, type: 3}
+  id: 10_Hard_Block
+  cardName: Hard Block
+  manaCost: 2
+  cardSprite: {fileID: 21300000, guid: 084e8321395590d45a7fd5b5d04b9f16, type: 3}
   rarity: 0
-  usableWithoutTarget: 0
+  usableWithoutTarget: 1
   exhaustAfterPlay: 0
   cardActionDataList:
-  - cardActionType: 0
-    actionTargetType: 0
-    actionValue: 6
+  - cardActionType: 2
+    actionTargetType: 1
+    actionValue: 12
     actionDelay: 0
   cardDescriptionDataList:
-  - descriptionText: 'Deal '
+  - descriptionText: Gain
     enableOverrideColor: 0
     overrideColor: {r: 0, g: 0, b: 0, a: 1}
     useModifier: 0
@@ -36,14 +36,14 @@ MonoBehaviour:
     overrideColorOnValueScaled: 0
   - descriptionText: 
     enableOverrideColor: 1
-    overrideColor: {r: 0.7686275, g: 0.14117648, b: 0.18823531, a: 1}
+    overrideColor: {r: 0.16553983, g: 0.6509434, b: 0.13919537, a: 1}
     useModifier: 1
     modifiedActionValueIndex: 0
-    modiferStats: 3
+    modiferStats: 0
     usePrefixOnModifiedValue: 1
     modifiedValuePrefix: '*'
-    overrideColorOnValueScaled: 1
-  - descriptionText: ' damage'
+    overrideColorOnValueScaled: 0
+  - descriptionText: ' hudge block'
     enableOverrideColor: 0
     overrideColor: {r: 0, g: 0, b: 0, a: 1}
     useModifier: 0
@@ -52,5 +52,5 @@ MonoBehaviour:
     usePrefixOnModifiedValue: 0
     modifiedValuePrefix: '*'
     overrideColorOnValueScaled: 0
-  specialKeywordsList: 
-  audioType: 0
+  specialKeywordsList: 00000000
+  audioType: 2
