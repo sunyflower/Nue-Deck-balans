@@ -16,6 +16,14 @@ MonoBehaviour:
   deckName: Knight
   cardList:
   - {fileID: 11400000, guid: 1e43cdb39f5836b44942f367125cadde, type: 2}
-  - {fileID: 11400000, guid: d4b3c54536fa04c3f964fe1506f69eee, type: 2}
+  - {fileID: 11400000, guid: 8f655889219afa649a967e88e37f98ec, type: 2}
   - {fileID: 11400000, guid: e1783ca46b526944c969405b4c0a29ec, type: 2}
+  - {fileID: 11400000, guid: 699dc51e1186d4fd48d6c36d88f79e54, type: 2}
+  - {fileID: 11400000, guid: 9706119fd5cc9f34e90cb73be068200c, type: 2}
+  - {fileID: 11400000, guid: 1e5671bf6b0f90b428df809497a2f125, type: 2}
+  - {fileID: 11400000, guid: 5d6b018bf7dec554ba0a2eabfd89d3b1, type: 2}
+  - {fileID: 11400000, guid: 9994008d962fa454e8e8c6fdc4b5c5f7, type: 2}
+  - {fileID: 11400000, guid: 449fe61053fa219479ca35395cb81bc5, type: 2}
+  - {fileID: 11400000, guid: 69e04cc406ca5634b97440b9ec55d264, type: 2}
+  - {fileID: 11400000, guid: d4b3c54536fa04c3f964fe1506f69eee, type: 2}
   - {fileID: 11400000, guid: 8c26311d01f4d418692150ad878585be, type: 2}
