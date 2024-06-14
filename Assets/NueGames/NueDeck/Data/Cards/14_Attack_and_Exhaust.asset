@@ -10,22 +10,26 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6903f06e96c43789549f142f8956d64, type: 3}
-  m_Name: 13_Light_Block
+  m_Name: 14_Attack_and_Exhaust
   m_EditorClassIdentifier: 
-  id: 13_Light_Block
-  cardName: Light Block
-  manaCost: 1
-  cardSprite: {fileID: 21300000, guid: 5dba1a2d2e3f16749a7e919b16798a85, type: 3}
+  id: 14_Attack_and_exhaust
+  cardName: Attack and exhaust
+  manaCost: 2
+  cardSprite: {fileID: 1944889613778695005, guid: 1fb0c0cb02c616d49815abb7a9a0fc0f, type: 3}
   rarity: 0
-  usableWithoutTarget: 1
+  usableWithoutTarget: 0
   exhaustAfterPlay: 0
   cardActionDataList:
-  - cardActionType: 2
+  - cardActionType: 0
     actionTargetType: 0
-    actionValue: 2
+    actionValue: 3
+    actionDelay: 0
+  - cardActionType: 9
+    actionTargetType: 0
+    actionValue: 0
     actionDelay: 0
   cardDescriptionDataList:
-  - descriptionText: 'Block '
+  - descriptionText: 'Attack '
     enableOverrideColor: 0
     overrideColor: {r: 0, g: 0, b: 0, a: 1}
     useModifier: 0
@@ -35,15 +39,15 @@ MonoBehaviour:
     modifiedValuePrefix: '*'
     overrideColorOnValueScaled: 0
   - descriptionText: 
-    enableOverrideColor: 1
+    enableOverrideColor: 0
     overrideColor: {r: 0, g: 0, b: 0, a: 1}
     useModifier: 1
     modifiedActionValueIndex: 0
-    modiferStats: 1
+    modiferStats: 0
     usePrefixOnModifiedValue: 0
     modifiedValuePrefix: '*'
     overrideColorOnValueScaled: 0
-  - descriptionText: ' the enemy'
+  - descriptionText: ' and Exhaust '
     enableOverrideColor: 0
     overrideColor: {r: 0, g: 0, b: 0, a: 1}
     useModifier: 0
@@ -53,4 +57,4 @@ MonoBehaviour:
     modifiedValuePrefix: '*'
     overrideColorOnValueScaled: 0
   specialKeywordsList: 
-  audioType: 2
+  audioType: 0

@@ -10,22 +10,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6903f06e96c43789549f142f8956d64, type: 3}
-  m_Name: 13_Light_Block
+  m_Name: 16_Power_pot
   m_EditorClassIdentifier: 
-  id: 13_Light_Block
-  cardName: Light Block
-  manaCost: 1
-  cardSprite: {fileID: 21300000, guid: 5dba1a2d2e3f16749a7e919b16798a85, type: 3}
+  id: 16_power_pot
+  cardName: Power Pot
+  manaCost: 0
+  cardSprite: {fileID: 0}
   rarity: 0
   usableWithoutTarget: 1
   exhaustAfterPlay: 0
   cardActionDataList:
-  - cardActionType: 2
-    actionTargetType: 0
-    actionValue: 2
+  - cardActionType: 3
+    actionTargetType: 1
+    actionValue: 4
     actionDelay: 0
   cardDescriptionDataList:
-  - descriptionText: 'Block '
+  - descriptionText: 'Drink '
     enableOverrideColor: 0
     overrideColor: {r: 0, g: 0, b: 0, a: 1}
     useModifier: 0
@@ -35,15 +35,15 @@ MonoBehaviour:
     modifiedValuePrefix: '*'
     overrideColorOnValueScaled: 0
   - descriptionText: 
-    enableOverrideColor: 1
+    enableOverrideColor: 0
     overrideColor: {r: 0, g: 0, b: 0, a: 1}
     useModifier: 1
     modifiedActionValueIndex: 0
-    modiferStats: 1
+    modiferStats: 0
     usePrefixOnModifiedValue: 0
     modifiedValuePrefix: '*'
     overrideColorOnValueScaled: 0
-  - descriptionText: ' the enemy'
+  - descriptionText: ' Power Pot'
     enableOverrideColor: 0
     overrideColor: {r: 0, g: 0, b: 0, a: 1}
     useModifier: 0
@@ -53,4 +53,4 @@ MonoBehaviour:
     modifiedValuePrefix: '*'
     overrideColorOnValueScaled: 0
   specialKeywordsList: 
-  audioType: 2
+  audioType: 5
