@@ -10,22 +10,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6903f06e96c43789549f142f8956d64, type: 3}
-  m_Name: 24_new_card_name
+  m_Name: 19_Invisibility
   m_EditorClassIdentifier: 
-  id: 24_Gas_Granade
-  cardName: Gas Granade
+  id: 19_Invisibility
+  cardName: Invisibility
   manaCost: 2
-  cardSprite: {fileID: 21300000, guid: b814f523022834b4eb4ef10d01cf8faf, type: 3}
+  cardSprite: {fileID: 21300000, guid: f0b1e3be75a91b847972caea0b76ea1a, type: 3}
   rarity: 0
-  usableWithoutTarget: 0
+  usableWithoutTarget: 1
   exhaustAfterPlay: 0
   cardActionDataList:
-  - cardActionType: 8
-    actionTargetType: 2
-    actionValue: 1
+  - cardActionType: 2
+    actionTargetType: 0
+    actionValue: 10
     actionDelay: 0
   cardDescriptionDataList:
-  - descriptionText: Stun all enemies
+  - descriptionText: 'Block '
     enableOverrideColor: 0
     overrideColor: {r: 0, g: 0, b: 0, a: 1}
     useModifier: 0
@@ -35,13 +35,22 @@ MonoBehaviour:
     modifiedValuePrefix: '*'
     overrideColorOnValueScaled: 0
   - descriptionText: 
+    enableOverrideColor: 1
+    overrideColor: {r: 0.11311854, g: 0.3765071, b: 0.7735849, a: 1}
+    useModifier: 1
+    modifiedActionValueIndex: 0
+    modiferStats: 1
+    usePrefixOnModifiedValue: 0
+    modifiedValuePrefix: '*'
+    overrideColorOnValueScaled: 0
+  - descriptionText: ' damage'
     enableOverrideColor: 0
     overrideColor: {r: 0, g: 0, b: 0, a: 1}
-    useModifier: 1
+    useModifier: 0
     modifiedActionValueIndex: 0
     modiferStats: 0
     usePrefixOnModifiedValue: 0
     modifiedValuePrefix: '*'
     overrideColorOnValueScaled: 0
-  specialKeywordsList: 05000000
-  audioType: 0
+  specialKeywordsList: 00000000
+  audioType: 2

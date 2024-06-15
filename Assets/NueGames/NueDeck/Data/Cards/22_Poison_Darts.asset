@@ -10,19 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6903f06e96c43789549f142f8956d64, type: 3}
-  m_Name: 22_new_card_name
+  m_Name: 22_Poison_Darts
   m_EditorClassIdentifier: 
   id: 22_Poison_Darts
   cardName: Poison Darts
   manaCost: 3
   cardSprite: {fileID: -23530689285739627, guid: a707003c96586cc41b22ae32a9cdb636, type: 3}
   rarity: 0
-  usableWithoutTarget: 0
+  usableWithoutTarget: 1
   exhaustAfterPlay: 1
   cardActionDataList:
   - cardActionType: 0
     actionTargetType: 2
-    actionValue: 7
+    actionValue: 5
     actionDelay: 0
   cardDescriptionDataList:
   - descriptionText: 'Deal '
@@ -39,7 +39,7 @@ MonoBehaviour:
     overrideColor: {r: 0, g: 0, b: 0, a: 1}
     useModifier: 1
     modifiedActionValueIndex: 0
-    modiferStats: 0
+    modiferStats: 3
     usePrefixOnModifiedValue: 0
     modifiedValuePrefix: '*'
     overrideColorOnValueScaled: 0

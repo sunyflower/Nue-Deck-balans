@@ -15,7 +15,7 @@ MonoBehaviour:
   id: 8_stun
   cardName: Stun
   manaCost: 1
-  cardSprite: {fileID: 3581737191522520629, guid: a707003c96586cc41b22ae32a9cdb636, type: 3}
+  cardSprite: {fileID: 8418759625490777032, guid: a707003c96586cc41b22ae32a9cdb636, type: 3}
   rarity: 0
   usableWithoutTarget: 0
   exhaustAfterPlay: 0
