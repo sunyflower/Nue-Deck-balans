@@ -20,13 +20,13 @@ MonoBehaviour:
   usableWithoutTarget: 0
   exhaustAfterPlay: 1
   cardActionDataList:
-  - cardActionType: 0
-    actionTargetType: 0
-    actionValue: 6
-    actionDelay: 0
   - cardActionType: 7
     actionTargetType: 0
     actionValue: 12
+    actionDelay: 0
+  - cardActionType: 0
+    actionTargetType: 0
+    actionValue: 6
     actionDelay: 0
   cardDescriptionDataList:
   - descriptionText: 'Deal damage '
@@ -42,11 +42,11 @@ MonoBehaviour:
     enableOverrideColor: 1
     overrideColor: {r: 0.9056604, g: 0.14951938, b: 0.14951938, a: 1}
     useModifier: 1
-    modifiedActionValueIndex: 0
+    modifiedActionValueIndex: 1
     modiferStats: 3
     usePrefixOnModifiedValue: 0
     modifiedValuePrefix: '*'
-    overrideColorOnValueScaled: 0
+    overrideColorOnValueScaled: 1
   - descriptionText: ' and heal self '
     enableOverrideColor: 0
     overrideColor: {r: 0, g: 0, b: 0, a: 1}
@@ -58,9 +58,9 @@ MonoBehaviour:
     overrideColorOnValueScaled: 0
   - descriptionText: 
     enableOverrideColor: 0
-    overrideColor: {r: 0, g: 0, b: 0, a: 1}
+    overrideColor: {r: 0.19517621, g: 0.8113208, b: 0.21311788, a: 1}
     useModifier: 1
-    modifiedActionValueIndex: 1
+    modifiedActionValueIndex: 0
     modiferStats: 0
     usePrefixOnModifiedValue: 0
     modifiedValuePrefix: '*'

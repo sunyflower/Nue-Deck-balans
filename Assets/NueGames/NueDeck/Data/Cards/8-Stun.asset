@@ -36,14 +36,14 @@ MonoBehaviour:
     overrideColorOnValueScaled: 0
   - descriptionText: 
     enableOverrideColor: 0
-    overrideColor: {r: 1, g: 0.78023654, b: 0, a: 1}
+    overrideColor: {r: 0.38530493, g: 0, b: 1, a: 1}
     useModifier: 1
     modifiedActionValueIndex: 0
     modiferStats: 0
     usePrefixOnModifiedValue: 1
     modifiedValuePrefix: '*'
     overrideColorOnValueScaled: 0
-  - descriptionText: ' enemy'
+  - descriptionText: ' enemy for 1 turn'
     enableOverrideColor: 0
     overrideColor: {r: 0, g: 0, b: 0, a: 1}
     useModifier: 0

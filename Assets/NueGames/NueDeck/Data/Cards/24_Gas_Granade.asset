@@ -25,7 +25,7 @@ MonoBehaviour:
     actionValue: 1
     actionDelay: 0
   cardDescriptionDataList:
-  - descriptionText: 'Stun all enemies '
+  - descriptionText: 'Stun all enemies for '
     enableOverrideColor: 0
     overrideColor: {r: 0, g: 0, b: 0, a: 1}
     useModifier: 0
@@ -36,8 +36,17 @@ MonoBehaviour:
     overrideColorOnValueScaled: 0
   - descriptionText: 
     enableOverrideColor: 0
-    overrideColor: {r: 0, g: 0, b: 0, a: 1}
+    overrideColor: {r: 0.4102073, g: 0.16470587, b: 0.7372549, a: 1}
     useModifier: 1
+    modifiedActionValueIndex: 0
+    modiferStats: 0
+    usePrefixOnModifiedValue: 0
+    modifiedValuePrefix: '*'
+    overrideColorOnValueScaled: 0
+  - descriptionText: ' turn'
+    enableOverrideColor: 0
+    overrideColor: {r: 0, g: 0, b: 0, a: 1}
+    useModifier: 0
     modifiedActionValueIndex: 0
     modiferStats: 0
     usePrefixOnModifiedValue: 0

@@ -40,7 +40,7 @@ MonoBehaviour:
     overrideColorOnValueScaled: 0
   - descriptionText: 
     enableOverrideColor: 0
-    overrideColor: {r: 0, g: 0, b: 0, a: 1}
+    overrideColor: {r: 0.14173192, g: 0.6254423, b: 0.8584906, a: 1}
     useModifier: 1
     modifiedActionValueIndex: 0
     modiferStats: 0
@@ -58,7 +58,7 @@ MonoBehaviour:
     overrideColorOnValueScaled: 0
   - descriptionText: 
     enableOverrideColor: 0
-    overrideColor: {r: 0, g: 0, b: 0, a: 1}
+    overrideColor: {r: 0.7169812, g: 0.1792453, b: 0.1792453, a: 1}
     useModifier: 1
     modifiedActionValueIndex: 1
     modiferStats: 0

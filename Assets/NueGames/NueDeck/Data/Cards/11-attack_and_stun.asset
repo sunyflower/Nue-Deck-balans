@@ -46,8 +46,8 @@ MonoBehaviour:
     modiferStats: 3
     usePrefixOnModifiedValue: 0
     modifiedValuePrefix: '*'
-    overrideColorOnValueScaled: 0
-  - descriptionText: ' and Stun '
+    overrideColorOnValueScaled: 1
+  - descriptionText: ' and Stun for '
     enableOverrideColor: 0
     overrideColor: {r: 0, g: 0, b: 0, a: 1}
     useModifier: 0
@@ -58,9 +58,18 @@ MonoBehaviour:
     overrideColorOnValueScaled: 0
   - descriptionText: 
     enableOverrideColor: 0
-    overrideColor: {r: 0, g: 0, b: 0, a: 1}
+    overrideColor: {r: 0.3916308, g: 0.1490196, b: 0.77254903, a: 1}
     useModifier: 1
     modifiedActionValueIndex: 1
+    modiferStats: 0
+    usePrefixOnModifiedValue: 0
+    modifiedValuePrefix: '*'
+    overrideColorOnValueScaled: 0
+  - descriptionText: ' turn'
+    enableOverrideColor: 0
+    overrideColor: {r: 0, g: 0, b: 0, a: 1}
+    useModifier: 0
+    modifiedActionValueIndex: 0
     modiferStats: 0
     usePrefixOnModifiedValue: 0
     modifiedValuePrefix: '*'
