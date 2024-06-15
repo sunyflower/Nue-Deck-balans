@@ -22,11 +22,11 @@ MonoBehaviour:
   cardActionDataList:
   - cardActionType: 2
     actionTargetType: 1
-    actionValue: 2
+    actionValue: 5
     actionDelay: 0
   - cardActionType: 1
     actionTargetType: 1
-    actionValue: 6
+    actionValue: 10
     actionDelay: 0
   cardDescriptionDataList:
   - descriptionText: 'Block '

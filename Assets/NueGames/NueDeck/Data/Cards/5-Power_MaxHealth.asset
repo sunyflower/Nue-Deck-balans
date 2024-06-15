@@ -24,6 +24,10 @@ MonoBehaviour:
     actionTargetType: 1
     actionValue: 5
     actionDelay: 0
+  - cardActionType: 1
+    actionTargetType: 0
+    actionValue: 5
+    actionDelay: 0
   cardDescriptionDataList:
   - descriptionText: 'Increase your max health by '
     enableOverrideColor: 0

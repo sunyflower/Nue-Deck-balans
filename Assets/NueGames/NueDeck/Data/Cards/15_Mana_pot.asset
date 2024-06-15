@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 15_Mana_pot
   cardName: Mana Pot
-  manaCost: 0
+  manaCost: 1
   cardSprite: {fileID: -6598036126873212134, guid: a707003c96586cc41b22ae32a9cdb636, type: 3}
   rarity: 0
   usableWithoutTarget: 1
@@ -22,7 +22,7 @@ MonoBehaviour:
   cardActionDataList:
   - cardActionType: 6
     actionTargetType: 1
-    actionValue: 2
+    actionValue: 3
     actionDelay: 0
   cardDescriptionDataList:
   - descriptionText: 'Increase mana by '

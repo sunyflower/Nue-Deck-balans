@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 16_power_pot
   cardName: Power Pot
-  manaCost: 0
+  manaCost: 1
   cardSprite: {fileID: -5044596713200232319, guid: a707003c96586cc41b22ae32a9cdb636, type: 3}
   rarity: 0
   usableWithoutTarget: 1
@@ -22,7 +22,7 @@ MonoBehaviour:
   cardActionDataList:
   - cardActionType: 3
     actionTargetType: 1
-    actionValue: 4
+    actionValue: 6
     actionDelay: 0
   cardDescriptionDataList:
   - descriptionText: 'Increase DMG by '
